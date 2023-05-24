@@ -1,0 +1,19 @@
+.about{
+  background-color: orange;
+  margin: 0 auto;
+}
+h2.about-heading{
+  margin: 0  auto;
+}
+.about-container{
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-left{
+  flex: 1;
+}
+.about-right{
+  flex: 1;
+}
