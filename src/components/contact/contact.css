@@ -1,3 +1,69 @@
 .contact{
-  background-color: gray;
+  background-color: #f1ffff;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+.contact-heading{
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 1rem auto;
+}
+.contact-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+.form, .address{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 12px;
+}
+
+.address h3{
+  margin-top: 0.5rem;
+  font-size: 1.7rem;
+}
+.address .social-icons{
+  display: flex;
+  gap: 1rem
+}
+.address .social-icons p:hover{
+  transition: 0.3s ease-in;
+  transform: translateY(-3px);
+  cursor: pointer;
+}
+.address p{
+  font-size: 1.5rem;
+}
+
+.address p + P{
+  margin-bottom: -10px;
+}
+.address span{
+  font-weight: 800;
+}
+.form{
+  margin-left: 0.8rem;
+}
+.form input, .form textarea{
+  padding: 0.6rem 1rem;
+  font-size: 0.8rem;
+  font-family: poppins;
+  border-radius: 5px;
+  border: none;
+}
+.form input[type='submit']{
+  background-color: #333;
+  color: #f1f1f1;
+  font-size: 1.2rem;
+}
+.form input[type='submit']:hover{
+  transition: 0.5s ease-in;
+  transform: translateY(-3px);
+  cursor: pointer;
 }

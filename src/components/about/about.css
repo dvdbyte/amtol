@@ -1,15 +1,19 @@
 .about{
-  background-color: orange;
-  margin: 0 auto;
+  background-color: #f7f7f7;
 }
-h2.about-heading{
-  margin: 0  auto;
-}
+
 .about-container{
   padding: 3rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.about-heading{
+  font-size: 1.8rem;
+}
+.about-wrapper{
+  display: flex;
 }
 .about-left{
   flex: 1;

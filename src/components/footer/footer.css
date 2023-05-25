@@ -1,3 +1,22 @@
 .footer{
-  background-color: brown;
+  background-color: #444;
+ 
+}
+
+.footer-container{
+  display: flex;
+  padding: 2rem 3rem;
+  justify-content: space-between;
+  
+}
+.footer-service-wrapper{
+   color: #f1ffff;
+}
+.footer-service-wrapper p a, .footer-links p a{
+   color: #f1ffff;
+   line-height:35px;
+}
+.footer-service-wrapper p a:hover, .footer-links p a:hover{
+  color: #9bdc51;
+  transition: 0.3s ease;
 }

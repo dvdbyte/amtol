@@ -16,6 +16,7 @@
 .hero-right{
   flex: 1;
   display: flex;
+  min-width: 500px;
   flex-direction: column;
   justify-content: space-between;
  
@@ -57,6 +58,7 @@
 .hero-left{
   flex: 1;
   display: flex;
+  min-width: 500px;
   justify-content: center;
   align-items: center;
   padding: 20px 0 20px 20px;
